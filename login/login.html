@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afri-Wear Emporium-login</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="loginnav.css">
+    <link rel="stylesheet" href="loginnavdark.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mulish-brand" href="#">Afri-Wear Emporium</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link mulish-nav-item" href="../home/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mulish-nav-item" href="../store/store.html">Store</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mulish-nav-item" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mulish-nav-item" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mulish-nav-item" href="#">Point of Sale</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link mulish-nav-item" href="#">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Login Page Container -->
+<div class="login-page-container">
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Navigation Links -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h5>Navigation</h5>
+                <ul class="footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Points of Sale</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div class="col-lg-4 col-md-8 col-sm-6">
+                <h5>Contact Us</h5>
+                <p>31424 embakasi <br>
+                    Nairobi, kenya<br>
+                    Email: <a href="mailto:info@my-domain.com">info@afriwear.com</a><br>
+                    Tel: +254768810657
+                </p>
+            </div>
+            <!-- Shipping & Returns Links -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h5>Support</h5>
+                <ul class="footer-nav">
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <!-- Subscription Form -->
+            <div class="col-lg-4 col-md-8 col-sm-6">
+                <h5>Subscribe to our Newsletter</h5>
+                <form class="subscription-form">
+                    <input type="email" placeholder="Email Address*" required>
+                    <button type="submit">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Social Media Icons -->
+            <div class="col-12 social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Copyright -->
+            <div class="col-12 copyright">
+                <p>©2024 Afri-Wear. Powered and secured by <a href="#">Bossman</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+ 
+<script src="login.js"></script>
+<script src="loginnav.js"></script>
+<script src="https://kit.fontawesome.com/d449f1130a.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

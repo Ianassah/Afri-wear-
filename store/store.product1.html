@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="store.product1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mulish-brand" href="#">Afri-Wear Emporium</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mulish-nav-item" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link mulish-nav-item" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mulish-nav-item" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mulish-nav-item" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mulish-nav-item" href="#">Point of Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a href="store/store.html"></a>   
+                    <a class="nav-link mulish-nav-item" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">
+                      <i class="fas fa-shopping-cart"></i> <!-- Font Awesome Cart Icon -->
+                      <span class="badge badge-pill badge-primary" id="cart-count">0</span>
+                    </a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="product-detail-container">
+        <div class="product-image">
+            <img src="img/oxford-shoes-6078993 (2).jpg" alt="Product Name">
+        </div>
+        <div class="product-info">
+            <h1>I'm a Product</h1>
+            <p>SKU: 0008</p>
+            <h2>Ksh45.00</h2>
+            <label for="size">Size</label>
+            <select id="size">
+                <option value="select">Select</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" value="1" min="1">
+            <div class="buttons">
+                <button onclick="addToCart('0008', 'Product Name', 45, 'product-image.jpg')">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="product-description">
+                <h3>Product Info</h3>
+                <p>I'm a product description. This is a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="store.js"></script>
+<script src="https://kit.fontawesome.com/d449f1130a.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>         <div class="col-lg-4 col-md-8 col-sm-6">
+      
+</body>
+</html>

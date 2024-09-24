@@ -1,0 +1,120 @@
+
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-item a {
+  font-size: 1.1em;
+}
+.nav-item a:hover {
+  color: #979522; /* Change this color to your theme's accent color */
+}
+.mulish-brand {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+.mulish-nav-item {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+}
+
+.mulish-heading {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800; /* Extra bold */
+  font-style: normal;
+}
+.mulish-subheading {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Semi-bold */
+  font-style: normal;
+}
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--background-color);
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+/* Navbar Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Dark Mode Styles */
+body.dark-mode .navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark-mode .nav-links a {
+  color: var(--text-color);
+}
+
+body.dark-mode .nav-links a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Smooth Scroll CSS */
+html {
+  scroll-behavior: smooth;
+}
+.highlighted-navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 5px 10px; /* Add padding around the links */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.nav-item.active .nav-link {
+  font-weight: bold;
+  color: #9b9922 !important;
+}
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: rgb(163, 165, 42); /* Sets the navbar background to brown */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #b1a722; /* Sets the text color to white for contrast */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #dcdcdc; /* Changes text color on hover for a subtle effect */
+}
+
+/* ... Rest of your existing styles ... */
