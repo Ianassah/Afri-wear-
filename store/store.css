@@ -107,7 +107,7 @@ html {
     scroll-behavior: smooth;
 }
 .highlighted-navbar {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #bbc13d; /* Light gray background */
     padding: 5px 10px; /* Add padding around the links */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
