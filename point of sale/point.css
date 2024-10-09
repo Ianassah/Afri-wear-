@@ -1,0 +1,300 @@
+body {
+  .navbar-brand {
+    font-weight: bold;
+}
+.nav-item a {
+    font-size: 1.1em;
+}
+.nav-item a:hover {
+    color: #979522; /* Change this color to your theme's accent color */
+}
+.navbar .nav-link i {
+    font-size: 1.2rem;
+  }
+  
+  .navbar .nav-link {
+    margin-right: 15px;
+  }
+  
+  .navbar .badge {
+    position: relative;
+    top: -10px;
+    left: -5px;
+  }
+  
+.mulish-brand {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+.mulish-nav-item {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+}
+
+.mulish-heading {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800; /* Extra bold */
+    font-style: normal;
+}
+.mulish-subheading {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600; /* Semi-bold */
+    font-style: normal;
+}
+/* Base Styles */
+body {
+    font-family: "Mullish", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--background-color);
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Dark Mode Styles */
+body.dark-mode .navbar {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark-mode .nav-links a {
+    color: var(--text-color);
+}
+
+body.dark-mode .nav-links a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Smooth Scroll CSS */
+html {
+    scroll-behavior: smooth;
+}
+.highlighted-navbar {
+    background-color: #bbc13d; /* Light gray background */
+    padding: 5px 10px; /* Add padding around the links */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold;
+    color: #9b9922 !important;
+}
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: rgb(163, 165, 42); /* Sets the navbar background to brown */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #b1a722; /* Sets the text color to white for contrast */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #dcdcdc; /* Changes text color on hover for a subtle effect */
+}
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1d20;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.store {
+  background-color: #232528;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.store h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.store p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a0b047;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #89a347;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #98a527;
+}
+
+.footer .footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-nav li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-nav li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer .footer-nav li a:hover {
+  color: #98a527;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer .subscription-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer .subscription-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+  outline: none;
+}
+
+.footer .subscription-form button {
+  padding: 10px 20px;
+  background-color: #98a527;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer .subscription-form button:hover {
+  background-color: #98a527;
+}
+
+.footer .social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer .social-media a {
+  color: #333;
+  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer .social-media a:hover {
+  color: #98a527;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer .copyright a {
+  color: #98a527;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #5c6bc0;
+}
+

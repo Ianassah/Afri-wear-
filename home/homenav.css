@@ -73,6 +73,12 @@ body {
 
 .nav-links a:hover {
   color: var(--link-hover-color);
+
+}
+.navbar .badge {
+  position: relative;
+  top: -10px;
+  left: -5px;
 }
 
 /* Dark Mode Styles */
